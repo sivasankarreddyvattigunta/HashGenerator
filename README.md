@@ -41,7 +41,7 @@ This is a simple web application that allows users to generate hash values from 
 
 2. Navigate to the project directory.
    ```bash
-   cd hash-generator-website
+   cd hash-generator
    ```
 
 3. Open `index.html` in your web browser.
