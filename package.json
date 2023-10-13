@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "blake2": "^5.0.0",
+    "blakejs": "^1.2.1",
+    "crypto-js": "^4.1.1"
+  }
+}

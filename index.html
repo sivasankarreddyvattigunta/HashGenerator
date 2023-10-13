@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash Generator</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <h1>Hash Generator</h1>
+    <div class="container">
+        <label for="text-input">Enter text:</label>
+        <input type="text" id="text-input" class="text-input">
+        <label id="files" for="file-input">Select a file:</label>
+        <input type="file" id="file-input" class="file-input">
+        <label for="hash-algorithm">Select algorithm:</label>
+        <select id="hash-algorithm" class="select-algorithm">
+            <option value="sha256">SHA-256</option>
+            <option value="sha1">SHA-1</option>
+            <option value="sha3">SHA-3</option>
+            <option value="md5">MD5</option>
+            <option value="sha512">SHA-512</option>
+            <option value="sha384">SHA-384</option>
+        </select>
+        <div class="button-container">
+            <button onclick="generateHashFromText()" class="generate-button">Generate Hash from Text</button>
+            <button onclick="generateHashFromFile()" class="generate-button">Generate Hash from File</button>
+        </div>
+        <div class="output-container" id="hash-output"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha256.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha512.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha384.js"></script>
+    <script src="hashgenerate.js"></script>
+</body>
+</html>
