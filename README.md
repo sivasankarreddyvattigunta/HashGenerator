@@ -50,11 +50,11 @@ This is a simple web application that allows users to generate hash values from 
 
 - [CryptoJS](https://cryptojs.gitbook.io/docs/): JavaScript library for cryptographic algorithms.
 
-## Contributor
+## Author
 
-- [VATTIGUNTA SIVA SANKAR REDDY ]([https://github.com/sivasankarreddyvattigunta]) 
+[VATTIGUNTA SIVA SANKAR REDDY](https://github.com/sivasankarreddyvattigunta)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
